@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/be3c66901b.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section1.css">
+    <link rel="stylesheet" href="css/section2.css">
+    <link rel="stylesheet" href="css/section3.css">
+    <link rel="stylesheet" href="css/section4.css">
+    <link rel="stylesheet" href="css/section5.css">
+    <link rel="stylesheet" href="css/section6.css">
+    <link rel="stylesheet" href="css/section7.css">
+    <link rel="stylesheet" href="css/section8.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:400,500,600&display=swap" rel="stylesheet"> <!-- font-family: 'Mukta Mahee', sans-serif; -->
+</head>
+
+<body onload="load_eff()">
+    <button id="gotop"><i class="fas fa-angle-double-up"></i></button>
+    <header class="header">
+        <div id="search">
+            <i class="fas fa-search header-icon" id="search-icon2"></i>
+            <input type="text" placeholder="Type and Hit Entere">
+            <i class="fas fa-times header-icon" id="close-icon"></i>
+        </div>
+        <!-- menu -->
+        <div class="menu">
+            <a href="index.html">Kabbo</a>
+            <div class="header-menu">
+                <nav class="main-menu">
+                    <ul>
+                        <li class="main-menu-item"><a href="#">Home</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Portfolio version 1</a></li>
+                                <li><a href="#">Portfolio version 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-item"><a href="#">About</a></li>
+                        <li class="main-menu-item"><a href="#">Portfolio</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Portfolio version 1</a></li>
+                                <li><a href="#">Portfolio version 2</a></li>
+                                <li><a href="#">Portfolio version 3</a></li>
+                                <li><a href="#">Portfolio version 4</a></li>
+                                <li><a href="#">Portfolio version 5</a></li>
+                                <li><a href="#">Portfolio version v1</a></li>
+                                <li><a href="#">Portfolio version v2</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-item"><a href="#">Services</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Services single</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-item"><a href="#">Pages</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Shop pages</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Shop single</a></li>
+                                
+                                <li><a href="#">Coming soon</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-item"><a href="#">Blog</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Blog single</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-menu-item"><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <i id="ic1" class="fas fa-shopping-cart header-icon ">
+                    <div>
+                        <p>No products in the cart</p>
+                    </div>
+                </i>
+                <i id="search-icon" class="fas fa-search header-icon"></i>
+                <button class="header-button">Sign in</button>
+            </div>
+        </div>
+        <img id="headereff" src="img/header-effect.png" alt="">
+        <!-- header part 2-->
+        <div class="header-content">
+            <h1 id="weare">We Are Creative Agency,<br> Create & Make Your Dream</h1>
+            <p id="team">A team of 100+ experienced developers and designers, ready to help<br> you build your web and mobile applications.</p>
+            <button class="header-button" id="b2">GET STARTED</button>
+            <img id="img1" src="img/header-bg.png" alt="">
+            <img id="header-vid" src="img/icons/bannar-video-bg.png" alt="cqacq">
+        </div>
+    </header>
+    <section id="section1">
+        <div class="main-section1">
+            <div class="we">
+                <h1>We Are Fantasy<br> We've got you<br> covered on</h1>
+                <button>LEARN MORE</button>
+            </div>
+            <div class="product frs">
+                <span class="icon">
+                    <i class="far fa-clone"></i>
+                </span>
+                <a href="#">Product Design</a>
+                <p>Every product must make a statement and we’re ready to create it with holistic approach to design.</p>
+                <ul>
+                    <li>Javascript Development</li>
+                    <li>Django and DjangoCMS</li>
+                    <li>iOS App Development</li>
+                </ul>
+            </div>
+            <div class="product sec">
+                <span class="icon">
+                    <i class="far fa-moon"></i>
+                </span>
+                <a href="#">Creative Web Solution</a>
+                <p>We translate your business goals<br> and objectives into insightful UX,<br> remarkable UI and distinctive</p>
+                <ul>
+                    <li>Javascript Development</li>
+                    <li>Django and DjangoCMS</li>
+                    <li>iOS App Development</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="section2">
+        <div class="main-section2">
+            <div class="circles">
+                <div class="circle">
+                    <p>Total invest</p>
+                    <p class="circle-p">$ <span class="circle-sp">0</span> M</p>
+                </div>
+                <div class="circle">
+                    <p>Project Done</p>
+                    <p class="circle-p"><span class="circle-sp">0</span> K+</p>
+                </div>
+                <div class="circle">
+                    <p>Offices</p>
+                    <p class="circle-p"><span class="circle-sp">0</span></p>
+                </div>
+                <div class="circle">
+                    <p>Happy Client</p>
+                    <p class="circle-p"><span class="circle-sp">0</span> K</p>
+                </div>
+            </div><br>
+            <div class="section2p">
+                <p><span>12K+</span> DAILY STANDUPS</p>
+                <p><span>1M+</span> COMMITS</p>
+                <p><span>10K+</span> USER STORIES</p>
+            </div>
+        </div>
+    </section>
+    <section id="section3">
+        <div class="main-section3">
+            <span class="icon .frs">
+                <i class="far fa-gem"></i>
+            </span>
+            <p class="about">About the Agency</p>
+            <p class="Insights">Insights and resources to<br> help drive your business<br> forward faster.</p>
+            <p class="section3p">We build results-oriented brand strategies and continually refine your<br> campaigns for the greatest outcome. From full-scale digital marketing<br> and advertising strategy, right through to our precise execution and<br> reporting...that's right, we've got you covered</p>
+            <button class="header-button">Read Succes Story</button>
+        </div>
+    </section>
+    <section id="section4">
+        <div class="main-section4">
+            <div>
+                <div class="we">
+                    <p class="about">OUR SERVICES</p>
+                    <h1>Build lasting<br> relationships with<br> customers</h1>
+                    <button class="header-button">LEARN MORE</button>
+                </div>
+            </div>
+            <div>
+                <div class="build">
+                    <div class="product frs">
+                        <span class="icon">
+                            <i class="far fa-clone"></i>
+                        </span>
+                        <a href="#">Product Design</a>
+                        <p>Every product must make a statement and we’re ready to create it with holistic approach to design.</p>
+                    </div>
+                    <div class="product sec">
+                        <span class="icon">
+                            <i class="fas fa-bezier-curve"></i>
+                        </span>
+                        <a href="#">Creative Web Solution</a>
+                        <p>We translate your business goals<br> and objectives into insightful UX,<br> remarkable UI and distinctive</p>
+                    </div>
+                </div>
+                <div class="build">
+                    <div class="product frs">
+                        <span class="icon">
+                            <i class="fab fa-google-drive"></i>
+                        </span>
+                        <a href="#">Product Design</a>
+                        <p>Every product must make a statement and we’re ready to create it with holistic approach to design.</p>
+                    </div>
+                    <div class="product sec">
+                        <span class="icon">
+                            <i class="fas fa-feather"></i>
+                        </span>
+                        <a href="#">Creative Web Solution</a>
+                        <p>We translate your business goals<br> and objectives into insightful UX,<br> remarkable UI and distinctive</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section5">
+        <div class="main-section5">
+            <div>
+                <p class="about">Testimonial</p>
+                <p class="Insights">What Our core client say ?</p>
+                <p class="section3p">Our approach has empowered local, national, and global brands to grow their businesses and achieve<br> a competitive advantage and we can do the same for you</p>
+            </div>
+            <div>
+                <ul class="lvls">
+                    <li id="lvl1"><img src="img/worker-2.jpg" alt="sqfdc"></li>
+                    <li id="lvl2"><img src="img/worker-3.jpg" alt="fcqfcq"></li>
+                    <li id="lvl3"><img src="img/worker-4.jpg" alt="fceqfq"></li>
+                    <li id="lvl4"><img src="img/worker-5.jpg" alt="cfqq"></li>
+                    <li id="lvl5"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="workers">
+            <div id="worker-photo" class="worker_photo2"></div>
+            <div class="worker">
+                <p id="worker-name">Jack Daniels</p><br>
+                <p id="worker-prof">Web-designer</p>
+            </div>
+        </div>
+        <div id="change-btn">
+            <button id="left-btn"><i class="fas fa-long-arrow-alt-left"></i></button>
+            <button id="right-btn"><i class="fas fa-long-arrow-alt-right"></i></button>
+        </div>
+    </section>
+    <section id="section6">
+        <div class="main-section6">
+            <div class="sec6-head">
+                <div class="done">
+                    <img src="img/icons/tree.png" alt="">
+                    <p class="Insights">We have done lot of Agency Task</p>
+                </div>
+                <div class="task-complete">
+                    <p class="circle-p"><span class="circle-sp">05</span> K <sub>+</sub></p>
+                    <h1>Agency task complete</h1>
+                </div>
+            </div>
+            <div class="lists">
+                <ul class="work-names">
+                    <li id="all" class="active_label">All Works</li>
+                    <li id="creative">Creative</li>
+                    <li id="agency">Agency</li>
+                    <li id="ux">Ui/Ux</li>
+                    <li id="design">Website Design</li>
+                    <li id="other">Other</li>
+                </ul>
+                <ul class="works">
+                    <li id="work1" class="work" style="left: 0; top: 0">
+                        <a href=""><img src="img/work-images/work-1.jpg" alt=""></a>
+                    </li>
+                    <li id="work2" class="work no-creative" style="left: 30vw; top: 0">
+                        <a href=""><img src="img/work-images/work-2.jpg" alt=""></a>
+                    </li>
+                    <li id="work3" class="work" style="left: 60vw; top: 0">
+                        <a href=""><img src="img/work-images/work-3.jpg" alt=""></a>
+                    </li>
+                    <li id="work4" class="work no-reative" style="left: 0; top: 25vw">
+                        <a href=""><img src="img/work-images/work-4.jpg" alt=""></a>
+                    </li>
+                    <li id="work5" class="work" style="left: 30vw; top: 25vw">
+                        <a href=""><img src="img/work-images/work-5.jpg" alt=""></a>
+                    </li>
+                    <li id="work6" class="work no-reative" style="left: 60vw; top: 25vw">
+                        <a href=""><img src="img/work-images/work-6.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="section7">
+        <div class="main-section7">
+            <p class="Insights" id="blog-post">Our blog posts</p>
+            <ul class="blog-list">
+                <li>
+                    <div>
+                        <a href=""><img src="img/blog-images/blog-post-1.jpg" alt=""></a>
+                    </div>
+                    <a href="">A good content strategy can help engage your consumers</a>
+                    <p>A good content strategy can help engage your consumers and position your company as an effective publisher in your industry. In turn, this will play a role in increasing brand recognition, traffic to your website, lead conversions, and customer loyalty</p>
+                </li>
+                <li>
+                    <div>
+                        <a href=""><img src="img/blog-images/blog-post-2.jpg" alt=""></a>
+                    </div>
+                    <a href="">A good content strategy can help engage your consumers</a>
+                    <p>A good content strategy can help engage your consumers and position your company as an effective publisher in your industry. In turn, this will play a role in increasing brand recognition, traffic to your website, lead conversions, and customer loyalty</p>
+                </li>
+                <li>
+                    <div>
+                        <a href=""><img src="img/blog-images/blog-post-3.jpg" alt=""></a>
+                    </div>
+                    <a href="">A good content strategy can help engage your consumers</a>
+                    <p>A good content strategy can help engage your consumers and position your company as an effective publisher in your industry. In turn, this will play a role in increasing brand recognition, traffic to your website, lead conversions, and customer loyalty</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="section8">
+        <div class="main-section8">
+            <div>
+                <p>We are creative, so it might be about<br> minions and stuff</p>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+            </div>
+            <button class="header-button">CONTACT US</button>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="main-footer">
+            <div class="info-lists">
+                <ul class="name">
+                    <h1>Kabbo</h1>
+                    <p>Language : <span id="current">English (UK) <i class="fas fa-sort-down"></i></span></p>
+                    <ul id="lang">
+                        <li id="uk">English (UK)</li>
+                        <li id="us">English (US)</li>
+                        <li id="bn">Bongla (BN)</li>
+                    </ul>
+                    <ul id="careers">
+                        <li><a href="">CAREERS</a></li>
+                        <li><a href="">CONTACT</a></li>
+                        <li><a href="">PRIVACY</a></li>
+                    </ul>
+                    <ul id="soc">
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-linkedin-in"></i></li>
+                        <li><i class="fab fa-dribbble"></i></li>
+                    </ul>
+                </ul>
+                <ul class="footer-list">
+                    <li>Core Link</li>
+                    <li><a href="">Team Member</a></li>
+                    <li><a href="">Pricing Plan</a></li>
+                    <li><a href="">Google Map</a></li>
+                    <li><a href="">Apps Store</a></li>
+                    <li><a href="">About Company</a></li>
+                </ul>
+                <ul class="footer-list">
+                    <li>Information</li>
+                    <li>113 momo Street, bd 721NY 20012</li>
+                    <li><a href="">kabbohelp@gmail.com</a></li>
+                    <li><a href="" id="number">+547769876</a></li>
+                </ul>
+                <ul class="footer-list">
+                    <li>Stay In Loop</li>
+                    <li>Subscribe to receive biweekly tips<br> on creative automation and digital<br> advertising!</li>
+                    <li class="search-li">
+                        <input type="text" placeholder="What's your Email?">
+                        <span class="submit">
+                            <i class="fas fa-caret-right"></i>
+                        </span>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>About Company</li>
+                    <li><a href="">How it works</a></li>
+                    <li><a href="">Development</a></li>
+                    <li><a href="">Digital marketing</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Security</a></li>
+                </ul>
+            </div>
+            <div class="apps">
+                <div class="appStores">
+                    <button>
+                        <i class="fab fa-apple"></i>
+                        <p>App Store</p>
+                    </button>
+                    <button>
+                        <i class="fab fa-google-play"></i>
+                        <p>Play Store</p>
+                    </button>
+                </div>
+                <div>
+                    <p>© 2018 All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- js files -->
+    <script src="js/onloadeffects.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/scrolling-eff.js"></script>
+</body>
+
+</html>

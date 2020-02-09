@@ -1,0 +1,33 @@
+.main-section4 {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 180px;
+	display: flex
+}
+
+.build {
+	display: flex;
+	justify-content: space-around;
+
+}
+.build .product {
+	width: 15vw;
+	margin: 2vw;
+}
+.build .product .icon {
+	background-color: #fff;
+	color: #b68af9;
+}
+.build .product .icon i {
+	position: relative;
+	right: .2vw
+}
+.fa-bezier-curve {
+	color: #ffbefe
+}
+.fa-google-drive {
+	color: #a4fce6;
+}
+.fa-feather {
+	color: #8a7bf8;
+}

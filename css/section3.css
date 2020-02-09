@@ -1,0 +1,93 @@
+#section3 {
+	margin-top: 100px;
+	position: relative;
+	}
+#section3:before {
+	content: '';
+	position: absolute;
+	width: 3.6vw;
+	height: 3.6vw;
+	border-radius: 50%;
+	top: 5vw;
+	background-color: #f2eaff;
+	left: 2vw;
+	animation: .9s linear infinite video-animate;
+	animation-timing-function: cubic-bezier(.13,.66,.8,.99);
+}
+#section3:after {
+	content: '';
+	position: absolute;
+	width: 3.6vw;
+	height: 3.6vw;
+	border-radius: 50%;
+	top: 10vw;
+	background-color: #f3f3ff;
+	left: -1.5vw;
+	animation: .9s linear infinite video-animate;
+	animation-timing-function: cubic-bezier(.13,.66,.8,.99);
+} 
+.main-section3 {
+	width: 75%;
+	background: url('../img/about-agency.png') no-repeat right top;
+	background-size: 35vw 35vw;
+	margin: 0 auto;
+	position: relative;
+	height: 35vw;
+
+}
+.main-section3:before {
+	content: '';
+	position: absolute;
+	width: 1.5vw;
+	height: 1.5vw;
+	border-radius: 50%;
+	background-color: red;
+	top: 2vw;
+	background-color: #d1b7fe;
+	left: -6.5vw;
+	animation: .9s infinite video-animate;
+	animation-timing-function: cubic-bezier(.13,.66,.8,.99);
+}
+.about {
+	display: block;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	font-size: 1vw;
+	line-height: 1.2vw;
+	color: #343339;
+	font-weight: 600;
+}
+.main-section3 i {
+	color: #8e4af7;
+	position: relative;
+	right: .2vw;
+	width: 1.7vw;
+	height: 1.6vw;
+}
+.main-section3 span {
+	background-color: #fff;
+}
+.main-section3 .icon:after {
+	width: 130%;
+	height: 130%;
+}
+.about {
+	font-size: 1.1vw;
+	font-weight: 600;
+	color: #342d3d
+}
+.Insights {
+	font-size: 2.6vw;
+	line-height: 3vw;
+	color: #342d3d
+}
+.section3p {
+	font-size: 1vw;
+	line-height: 1.8vw;
+	color: #78757c;
+	font-weight: 400
+}
+.main-section3 .header-button {
+	width: 12vw;
+	margin-top: 3.5vw;
+}

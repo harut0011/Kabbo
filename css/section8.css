@@ -1,0 +1,40 @@
+#section8 {
+	margin-top: 15vw;
+}
+
+.main-section8 {
+	width: 60%;
+	margin: 0 auto;
+	
+	background: url('../img/contact-bg-1.jpg') no-repeat left top,
+			    url('../img/contact-bg-2.jpg') no-repeat right top;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 0 0 40px #c1c1c1;
+	position: relative;
+	top: 8vw;
+	background-color: #fff;
+	position: relative;
+	z-index: 10;
+}
+
+
+.main-section8 p:first-child {
+	font-size: 1.7vw;
+	font-weight: 700;
+
+}
+.main-section8 p {
+	display: block;
+	padding: 2vw;
+}
+.main-section8 button {
+	margin: auto 0;
+	height: 4vw;
+	width: 12vw;
+	font-size: 1.3vw;
+	border-radius: 10px;
+	background-color: #8f49f9;
+	color: #fff;
+	margin-right: 5vw;
+}

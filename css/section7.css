@@ -1,0 +1,80 @@
+#section7 {
+	background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(239,255,255,1) 51%, rgba(252,252,252,1) 100%);
+}
+
+#blog-post {
+	display: block;
+	text-align: center;
+
+}
+
+.main-section7 {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.blog-list {
+	margin-top: 100px;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 0 0 200px #f7f7ff;
+	border-bottom: 1px solid #c9c9c9;
+}
+.blog-list li {
+	max-width: 30%;
+	
+	box-sizing: border-box;
+	overflow: hidden;
+	transition: all 1s;
+}
+.blog-list li div {
+	max-height: 14vw;
+}
+.blog-list li div a {
+	display: block;
+	max-height: 14vw;
+	overflow: hidden;
+	position: relative;
+}
+.blog-list li div a:before {
+	content: '24 sep';
+	display: block;
+	padding: 1vw;
+	top: 1vw;
+	left: 1vw;
+	color: #8f49f9;
+	position: absolute;
+	background-color: #fff;
+	border-radius: .5vw;
+	font-size: 1.2vw;
+	box-shadow: 0 5px 30px #c099fa
+}
+.blog-list li:hover {
+	border-bottom: 1px solid #8f49f9;
+}
+.blog-list li:hover img {
+	transform: scale(1.2);
+}
+.blog-list li img {
+	max-width: 100%;
+	transition: .5s;
+}
+.blog-list li > a {
+	display: block;
+	padding: 1.5vw;
+	font-size: 1.3vw;
+	color: #454a72;
+	font-weight: 600;
+	text-decoration: none;
+	transition: .5s
+}
+.blog-list li > a:hover {
+	color: #8f49f9;
+} 
+.blog-list li > p {
+	color: #959595;
+	padding: 1.5vw;
+	padding-top: 0;
+}

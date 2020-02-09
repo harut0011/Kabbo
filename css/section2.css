@@ -1,0 +1,58 @@
+#section2 {
+	display: block;
+    background: url(../img/countrap-bg-1.png) no-repeat top left, url(../img/countrap-bg-2.png) no-repeat top right ;
+    margin-top: 50px;
+}
+
+.main-section2 {
+	width: 65%;
+	margin: 0 auto;
+}
+.circles {
+	display: flex;
+	justify-content: space-around;
+}
+.circle {
+	width: 11vw;
+	height: 11vw;
+	border-radius: 50%;
+	background-color: #fff;
+	box-shadow: 0 1.3vw 2.5vw #d6befb;
+	text-align: center;
+	color: #27242b;
+	font-size: 1.3vw;
+	font-weight: 600;
+}
+.circle p {
+	margin-top: 2vw;
+}
+.circle-p {
+	color: #8f49f9;
+}
+.circle-sp {
+	font-size: 3vw;
+	padding-bottom: 10px;
+}
+.circle:nth-child(1) {
+	margin-top: 10vw;
+}
+.circle:nth-child(2) {
+	margin-top: 2.5vw;
+}
+.circle:nth-child(3) {
+	margin-top: 14vw;
+}
+.circle:nth-child(4) {
+	margin-top: 8.5vw;
+}
+.section2p {
+	display: flex
+}
+.section2p p {
+	margin-left: 12vw;
+	font-size: 1.2vw;
+	text-align: center;
+}
+.section2p p span {
+	color: #8e4af7;
+}
